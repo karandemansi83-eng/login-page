@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            #container{
+                width: 200px;
+                height: 300px;
+                padding: 20px;
+                margin: 50px auto;
+                border: 1px solid black;
+                align-items: center;
+                background-color: lightblue;
+                border-radius: 10px;
+            }
+            body{
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZGVBwy1pxTI4w-QqLKNwR74wMCJPM-zV2a0-2YON3H4_ozvApErhWR7I&s=1000');
+                background-size: cover;
+            }
+        </style>
+        </head>
+    <body>
+        <form>
+            <div id="container">
+                <h1>Login</h1>
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter your password"><br><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+            <input type="button" value="Submit" align="center" style="background-color: lightblue;">
+        </form>
+    </body>
+</html>
